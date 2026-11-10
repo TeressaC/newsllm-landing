@@ -1,0 +1,48 @@
+/* Keep product screenshots on a light surface; give the manifesto its own blue chapter. */
+.modules-section {
+  background: linear-gradient(180deg, #eef3f6 0%, #e6eef3 100%);
+  color: #203e56;
+}
+.modules-section .section-meta {
+  color: #5b7488;
+  border-color: #bdcdd8;
+}
+.module-big-title > span:nth-child(2) { color: #668ba6; }
+.module-slide,
+.module-slide:nth-of-type(even) {
+  background: #f8fafb;
+  border: 1px solid #d1dde6;
+  box-shadow: 0 18px 42px #46627a16;
+}
+.module-slide:nth-of-type(even) { background: #eaf1f5; }
+.slide-number { color: #a5bdce; }
+.module-copy > .overline { color: #526f86 !important; }
+.module-copy h3 { color: #21445f; }
+.module-copy > p:last-child { color: #526a7e; }
+.module-use {
+  color: #557087 !important;
+  border-color: #c2d1dc;
+}
+.module-use > span { color: #3f5d73; }
+.module-preview-note { color: #5b7286; }
+.module-shot .report-example {
+  border: 1px solid #cfdae3;
+  box-shadow: 0 12px 30px #24496917;
+}
+
+.perspective-section {
+  background: #192e49;
+  color: #f1f6fa;
+}
+.perspective-section > .shell > .overline { color: #aac1d3 !important; }
+.perspective-section .kinetic-statement > span { color: #98afc2; }
+.perspective-section .kinetic-statement > span.is-read { color: #f1f6fa; }
+.perspective-section .perspective-description,
+.perspective-section .knowledge-heading > p:last-child { color: #c0d0dd; }
+.perspective-section .knowledge-framework { border-color: #7892a873; }
+.perspective-section .knowledge-heading .overline { color: #aac1d3 !important; }
+.perspective-section .knowledge-heading h3 { color: #f1f6fa; }
+.perspective-section .knowledge-depth { color: #a9bfd0; }
+.perspective-section .knowledge-depth::before {
+  background: linear-gradient(90deg, #718ca5, #c4d5e2);
+}

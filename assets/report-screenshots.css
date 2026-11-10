@@ -1,0 +1,47 @@
+.report-example {
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #f9f7f5;
+  box-shadow: 0 12px 30px rgba(8, 25, 42, .1);
+}
+.report-example img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#workflow-evidence .report-example img { object-fit: contain; }
+#workflow-ask .report-example img {
+  object-fit: contain;
+}
+#workflow-report .report-example {
+  background: #fff;
+}
+#workflow-report .report-example img {
+  object-fit: contain;
+}
+#module-timeline + .module-slide .report-example {
+  background: #fff;
+}
+#module-timeline + .module-slide .report-example img {
+  object-fit: contain;
+}
+#module-numbers + .module-slide .report-example {
+  background: #f9f7f5;
+}
+#module-numbers + .module-slide .report-example img {
+  object-fit: contain;
+}
+#module-chain + .module-slide .report-example img {
+  object-fit: contain;
+}
+.evidence-shot .report-example {
+  aspect-ratio: 21 / 17;
+  background: #fff;
+}
+.evidence-shot .report-example img {
+  object-fit: contain;
+}

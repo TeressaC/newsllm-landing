@@ -1,0 +1,13 @@
+{
+  "name": "newsllm-landing-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@carbon/icons": "^11.91.0"
+  }
+}
